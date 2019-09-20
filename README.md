@@ -1,4 +1,4 @@
-# Encrypted Deep Learning in Keras
+# Encrypted Deep Learning
 
 ## Step 1: Public Training
 
