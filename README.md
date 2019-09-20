@@ -2,9 +2,8 @@
 
 ## Step 1: Public Training
 
-Welcome to this tutorial! In the following notebooks you will learn how to provide private predictions. By private predictions, we mean that the data is constantly encrypted throughout the entire process. At no point is the user sharing raw data, only encrypted (that is, secret shared) data. In order to provide these private predictions, Syft Keras uses a library called [TF Encrypted](https://github.com/tf-encrypted/tf-encrypted) under the hood. TF Encrypted combines cutting-edge cryptographic and machine learning techniques, but you don't have to worry about this and can focus on your machine learning application.
-
-You can start serving private predictions with only three steps:
+By private predictions, we mean that the data is constantly encrypted throughout the entire process. At no point is the user sharing raw data, only encrypted (that is, secret shared) data. In order to provide these private predictions, Syft Keras uses a library called [TF Encrypted](https://github.com/tf-encrypted/tf-encrypted) under the hood. TF Encrypted combines cutting-edge cryptographic and machine learning techniques, but you don't have to worry about this and can focus on your machine learning application.
+Start serving private predictions with only three steps:
 - **Step 1**: train your model with normal Keras.
 - **Step 2**: secure and serve your machine learning model (server).
 - **Step 3**: query the secured model to receive private predictions (client). 
